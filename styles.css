@@ -23,7 +23,7 @@ html{
 aside{
     position:fixed;
     top:0;
-    width:12rem;
+    width:14rem;
     height:100vh;
     display:flex;
     flex-direction:column;
@@ -51,26 +51,26 @@ aside nav a{
 aside a:hover{
     color: white;
 }
-.container{
+ .container{
     margin:auto;
     margin-left: 18rem;
     padding: 12px rem;
     max-width: 40rem;
-}
-section{
+} 
+ section{
     min-height:100vh;
-    display:flex;
+    display: flex;
     border-bottom: 1px solid darkblue;
-}
-section h2{
+} 
+ section h2{
     font-size: 4rem;
     text-transform: uppercase;
     color: cornflowerblue;
-}
-section p{
+} 
+ section p{
     margin:1rem 0;
     font-size: 25px;
-}
+} 
 section button{
     padding:8px 15px;
     min-width: 140px;
@@ -83,7 +83,7 @@ section button{
 footer{
     background-color: cornflowerblue;
     height:auto;
-    width:100vw;
+    width:100%;
     padding-top: 40px;
     color: white;
 }

@@ -1,0 +1,161 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*{
+    margin:0;
+    font-family:"Poppins", sans-serif;
+    transition: 0.8s;
+}
+html{
+  scroll-behavior:smooth;
+}
+.places{
+    color:darkblue;
+}
+.date{
+    color: darkcyan;
+}
+.job{
+    color: skyblue;
+}
+.skill{
+    color: darkcyan;
+    font-size: 40px;
+}
+aside{
+    position:fixed;
+    top:0;
+    width:12rem;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:cornflowerblue;
+
+}
+aside img{
+    widows: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border:10px solid rgb(127, 166, 255);
+}
+aside nav a{
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    padding:0.5rem 0;
+    color: rgb(0, 84, 255);
+}
+aside a:hover{
+    color: white;
+}
+.container{
+    margin:auto;
+    margin-left: 18rem;
+    padding: 12px rem;
+    max-width: 40rem;
+}
+section{
+    min-height:100vh;
+    display:flex;
+    border-bottom: 1px solid darkblue;
+}
+section h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: cornflowerblue;
+}
+section p{
+    margin:1rem 0;
+    font-size: 25px;
+}
+section button{
+    padding:8px 15px;
+    min-width: 140px;
+    border:0;
+    outline:0;
+    background-color: cornflowerblue;
+    cursor:pointer;
+    color:white;
+}
+footer{
+    background-color: cornflowerblue;
+    height:auto;
+    width:100vw;
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 25x;
+    font-size:14px;
+}
+.socials {
+    list-style:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem 03rem 0;
+    padding: 0;
+}
+.socials li{
+    margin:0 10px;
+}
+.socials a{
+    text-decoration:none;
+    color:white;
+}
+.socials a i{
+    font-size:1.1rem;
+    transition: color .6s ease;
+}
+.socials a:hover i{
+    color:darkblue;
+}
+.footer-bottom{
+    background-color: cornflowerblue;
+    width:100 vw;
+    padding:20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size:14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+
+
+@media (max-width:780px) {
+    aside {
+        width:0;
+        opacity: 0;
+        overflow:hidden;
+    }
+
+    section h2{
+        font-size: 2.5rem;
+    }
+    .container{
+        margin-left: 0;
+    }
+}

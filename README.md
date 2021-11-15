@@ -1,2 +1,1 @@
-"# Portfolio-Website-Neji-Ghazouani" <br>
-You can check the website on this link: https://nejighazouani.netlify.app
+I build my portfolio website and you can check the website on this link: https://nejighazouani.netlify.app
